@@ -16,9 +16,10 @@ This is a simple API built with FastAPI for detecting emotions from text using a
    git clone <repository-url>
    cd emotion-api
 
-### Create and activate a virtual environment
+### Create a virtual environment
 
-python -m venv venv
+python3 -m venv venv    # On Windows: python -m venv venv
+
 source venv/bin/activate    # On Windows: venv\Scripts\activate
 
 ### Install dependencies

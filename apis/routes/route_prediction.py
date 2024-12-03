@@ -5,8 +5,8 @@ from apis.routes import model
 from schemas.predict import PredictSentence
 from model.Model import analysis_sentence
 
-
 router = APIRouter()
+
 
 @router.post('/',
              response_model=list,
